@@ -50,7 +50,7 @@ public class Sample {
             postConnection.setRequestProperty("Accept", "application/json");
             postConnection.setRequestProperty("Authorization", "Bearer d2a78d797dc15d660f7f6f48e2fd30d29e0d03a13bf8f03db03f704b776c2687");
             postConnection.setDoOutput(true);
-            String jsonInput = "{\"name\": \"Sen. Anala Iyer\",\"email\": \"dsen_anala_iyer64@stroman-leannon.test\",\"gender\": \"female\",\"status\": \"active\"}";
+            String jsonInput = "{\"name\": \"Sen. Anala Iyer\",\"email\": \"dsen_anala_iyer513@stroman-leannon.test\",\"gender\": \"female\",\"status\": \"active\"}";
             try (OutputStream outputStream = postConnection.getOutputStream()) {
                 byte[] input = jsonInput.getBytes(StandardCharsets.UTF_8);
                 outputStream.write(input, 0, input.length);
