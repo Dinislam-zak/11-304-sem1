@@ -1,4 +1,4 @@
-package ru.kpfu.itis.zakirov.server;
+package ru.kpfu.itis.zakirov.servlet;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
