@@ -5,10 +5,10 @@
     <#if users?has_content>
         Пользователи:
         <br>
-        Имя Очки
+        Имя Фамилия
         <br>
         <#list users as u>
-            ${u.name} ${u.score}
+            ${u.name} ${u.lastname}
             <br>
         </#list>
     </#if>
